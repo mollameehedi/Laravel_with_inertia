@@ -7,7 +7,7 @@ const Layout = ({children}) => {
           <header>
               <nav>
                           <Link className='nav-link' href="/">Home</Link>
-                          <Link className='nav-link' href="/create">Create</Link>
+                          <Link className='nav-link' href={route('post.create')}>Create</Link>
                       
               </nav>
           </header>
